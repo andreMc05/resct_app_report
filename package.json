@@ -1,0 +1,67 @@
+{
+  "name": "web-performance-monitoring",
+  "version": "2.0.0",
+  "description": "Framework-agnostic web performance monitoring for React, Vue, and TanStack Query with markdown reporting",
+  "main": "monitoring/index.ts",
+  "types": "monitoring/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "performance",
+    "monitoring",
+    "react",
+    "vue",
+    "tanstack-query",
+    "react-query",
+    "vue-query",
+    "web-vitals",
+    "core-web-vitals",
+    "lcp",
+    "cls",
+    "inp",
+    "resource-timing",
+    "long-animation-frames",
+    "ssr",
+    "ssg",
+    "next.js",
+    "nuxt"
+  ],
+  "dependencies": {
+    "web-vitals": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "vue": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    },
+    "@tanstack/react-query": {
+      "optional": true
+    },
+    "@tanstack/vue-query": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "@tanstack/vue-query": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
