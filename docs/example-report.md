@@ -1,8 +1,8 @@
 # Web Performance Report
 
-**Generated:** 1/10/2026, 10:30:45 AM  
-**URL:** https://example.com/products  
-**Session ID:** session_1736522445123_abc123xyz  
+**Generated:** 1/10/2026, 10:30:45 AM
+**URL:** https://example.com/products
+**Session ID:** session_1736522445123_abc123xyz
 **User Agent:** Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 ---
@@ -26,8 +26,8 @@
 
 ### LCP (Largest Contentful Paint)
 
-**Value:** 1847.50ms  
-**Rating:** ✅ Good  
+**Value:** 1847.50ms
+**Rating:** ✅ Good
 **Threshold:** Good < 2500ms, Poor > 4000ms
 
 **Attribution:**
@@ -40,8 +40,8 @@
 
 ### CLS (Cumulative Layout Shift)
 
-**Value:** 0.045  
-**Rating:** ✅ Good  
+**Value:** 0.045
+**Rating:** ✅ Good
 **Threshold:** Good < 0.1, Poor > 0.25
 
 **Attribution:**
@@ -52,8 +52,8 @@
 
 ### INP (Interaction to Next Paint)
 
-**Value:** 156.78ms  
-**Rating:** ✅ Good  
+**Value:** 156.78ms
+**Rating:** ✅ Good
 **Threshold:** Good < 200ms, Poor > 500ms
 
 **Attribution:**
@@ -65,14 +65,14 @@
 
 ### FCP (First Contentful Paint)
 
-**Value:** 892.34ms  
-**Rating:** ✅ Good  
+**Value:** 892.34ms
+**Rating:** ✅ Good
 **Threshold:** Good < 1800ms, Poor > 3000ms
 
 ### TTFB (Time to First Byte)
 
-**Value:** 156.23ms  
-**Rating:** ✅ Good  
+**Value:** 156.23ms
+**Rating:** ✅ Good
 **Threshold:** Good < 800ms, Poor > 1800ms
 
 ---
@@ -94,12 +94,12 @@
 
 ## React Hydration Performance
 
-**Duration:** 234.56ms  
-**Components Hydrated:** 87  
+**Duration:** 234.56ms
+**Components Hydrated:** 87
 
-**LCP Before Hydration:** 1234.56ms  
-**LCP After Hydration:** 1847.50ms  
-**LCP Delta:** 612.94ms  
+**LCP Before Hydration:** 1234.56ms
+**LCP After Hydration:** 1847.50ms
+**LCP Delta:** 612.94ms
 **LCP Element:** `img.hero-image`
 
 ---
@@ -158,11 +158,11 @@
 
 ## API Performance
 
-**Total API Calls:** 8  
-**Average Latency:** 245.32ms  
-**Average TTFB:** 167.89ms  
-**LCP-Blocking Calls:** 1  
-**INP-Blocking Calls:** 0  
+**Total API Calls:** 8
+**Average Latency:** 245.32ms
+**Average TTFB:** 167.89ms
+**LCP-Blocking Calls:** 1
+**INP-Blocking Calls:** 0
 
 ### Slowest API Calls (Top 10)
 
@@ -181,9 +181,9 @@
 
 ## Long Animation Frames
 
-**Total Long Frames:** 12  
-**Total Blocking Time:** 423.56ms  
-**Average Frame Duration:** 78.92ms  
+**Total Long Frames:** 12
+**Total Blocking Time:** 423.56ms
+**Average Frame Duration:** 78.92ms
 
 ### Worst Long Frames (Top 10)
 
